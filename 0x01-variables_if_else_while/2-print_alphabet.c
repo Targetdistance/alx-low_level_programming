@@ -13,6 +13,7 @@ int main(void)
 	while (i < 26)
 	{
 		putchar(l[i]);
+		i++;
 	}
 	putchar('\n');
 	return (0);
