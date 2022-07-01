@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	char l[25] = "abcdefghijklmnopqrstuvwxyz";
+	char l[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (i <= 25)
+	while (i < 26)
 	{
 		putchar(l[i]);
 	}
-	putchar('\n')
-	return (0)
+	putchar('\n');
+	return (0);
 }
