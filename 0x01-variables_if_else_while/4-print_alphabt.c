@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 26)
 	{
-		if (i != 4 && i != 14)
+		if (i != 4 && i != 16)
 		{
 			putchar(l[i]);
 		}
