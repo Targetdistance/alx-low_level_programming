@@ -10,9 +10,12 @@ int main(void)
 	char l[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while (i < 26 && i != 4 && i != 14)
+	while (i < 26)
 	{
-		putchar(l[i]);
+		if (i != 4 && i != 14)
+		{
+			putchar(l[i]);
+		}
 		i++;
 	}
 	putchar('\n');
