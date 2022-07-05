@@ -6,11 +6,11 @@
  */
 void print_alphabet(void)
 {
-	int alp;
+	int x;
 
-	for (alp = 97; alp <= 122; alp++)
+	for (x = 97; x <= 122; x++)
 	{
-		_putchar(alp);
+		_putchar(x);
 	}
 	_putchar('\n');
 }
