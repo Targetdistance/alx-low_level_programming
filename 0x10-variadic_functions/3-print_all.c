@@ -47,6 +47,5 @@ void print_all(const char * const format, ...)
 			break;
 		} i++;
 	}
-	printf("\n");
-	va_end(li);
+	printf("\n"), va_end(li);
 }
